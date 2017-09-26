@@ -1,0 +1,16 @@
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/customerdb
+    username: customeruser
+    password: dodoand
+
+github:
+  client:
+    clientId: 1533ed45003d0ce75337
+    clientSecret: 1621a9f4f16526d73cd840113b64c38f69e279f3
+    accessTokenUri: https://github.com/login/oauth/access_token
+    userAuthorizationUri: https://github.com/login/oauth/authorize
+    clientAuthenticationScheme: form
+  resource:
+    userInfoUri: https://api.github.com/user
